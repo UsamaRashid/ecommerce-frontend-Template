@@ -1,12 +1,16 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
+import HomeStats from "../components/HomeStats";
+import FeaturedProducts from "../components/FeaturedProducts";
+import ProductOverview from "../components/ProductOverview";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <HeroSection />
+      <HomeStats />
+      <FeaturedProducts />
+      <ProductOverview />
     </>
   );
 };

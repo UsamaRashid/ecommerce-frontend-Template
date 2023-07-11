@@ -196,7 +196,7 @@ export default function Navbar() {
                           className={({ selected }) =>
                             classNames(
                               selected
-                                ? "border-indigo-600 text-indigo-600"
+                                ? "border-indigo-600 text-indigo-600 focus:outline-none"
                                 : "border-transparent text-gray-900",
                               "flex-1 whitespace-nowrap border-b-2 px-1 py-4 text-base font-medium"
                             )
@@ -289,7 +289,7 @@ export default function Navbar() {
                 <div className='space-y-6 border-t border-gray-200 px-4 py-6'>
                   <div className='flow-root'>
                     <a
-                      href='#1'
+                      href='/login'
                       className='-m-2 block p-2 font-medium text-gray-900'
                     >
                       Sign in
@@ -346,7 +346,7 @@ export default function Navbar() {
 
               {/* Logo */}
               <div className='ml-4 flex lg:ml-0'>
-                <a href='#4'>
+                <a href='/'>
                   <span className='sr-only'>Your Company</span>
                   <img
                     className='h-8 w-auto'
@@ -483,7 +483,7 @@ export default function Navbar() {
               <div className='ml-auto flex items-center'>
                 <div className='hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6'>
                   <a
-                    href='#5'
+                    href='/login'
                     className='text-sm font-medium text-gray-700 hover:text-gray-800'
                   >
                     Sign in
